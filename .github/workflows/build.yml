@@ -36,5 +36,5 @@ jobs:
         project_version: ${{ steps.read_properties.outputs.value }}
       uses: actions/upload-artifact@v4
       with:
-        name: build_artifacts
+        name: api_test_build
         path: build/libs/*
